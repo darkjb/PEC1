@@ -1,9 +1,9 @@
 7037
 42/home/juan-blanco/projects/PEC1/.postcssrc1647689037260818909 0
-47/home/juan-blanco/projects/PEC1/dist/index.html1648233208719512692 0
-59/home/juan-blanco/projects/PEC1/dist/index.688abdd0.css.map1648233208729512692 0
-58/home/juan-blanco/projects/PEC1/dist/index.b9021b6e.js.map1648233208729512692 0
-54/home/juan-blanco/projects/PEC1/dist/index.b9021b6e.js1648233208719512692 0
+47/home/juan-blanco/projects/PEC1/dist/index.html1648233612029508109 0
+59/home/juan-blanco/projects/PEC1/dist/index.688abdd0.css.map1648233612029508109 0
+58/home/juan-blanco/projects/PEC1/dist/index.b9021b6e.js.map1648233612029508109 0
+54/home/juan-blanco/projects/PEC1/dist/index.b9021b6e.js1648233612029508109 0
 46/home/juan-blanco/projects/PEC1/src/index.html1648233185949512951 0
 42/home/juan-blanco/projects/PEC1/src/app.js1647688641680824267 0
 49/home/juan-blanco/projects/PEC1/package-lock.json1647687865200834783 0
@@ -1411,7 +1411,7 @@
 66/home/juan-blanco/projects/PEC1/node_modules/posthtml/package.json1647688946380000000 0
 64/home/juan-blanco/projects/PEC1/node_modules/yaml/browser/seq.js1647688947602999000 0
 108/home/juan-blanco/projects/PEC1/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/foo/bar.js1647688949631999000 0
-36/home/juan-blanco/projects/PEC1/dist1648233208749512692 1
+36/home/juan-blanco/projects/PEC1/dist1648233612059508109 1
 54/home/juan-blanco/projects/PEC1/node_modules/nan/tools1647688954990820023 1
 120/home/juan-blanco/projects/PEC1/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false/src1647688955740820013 1
 93/home/juan-blanco/projects/PEC1/node_modules/lmdb/prebuilds/linux-arm64/node.abi83.glibc.node1647688946924999000 0
@@ -3333,7 +3333,7 @@
 61/home/juan-blanco/projects/PEC1/node_modules/chalk/index.d.ts1647688940242000000 0
 76/home/juan-blanco/projects/PEC1/node_modules/caniuse-lite/data/regions/VC.js1647688946607000000 0
 81/home/juan-blanco/projects/PEC1/node_modules/npm-run-all/lib/npm-run-all-error.js1647688939019000000 0
-31/home/juan-blanco/projects/PEC11648233208699512692 1
+31/home/juan-blanco/projects/PEC11648233612009508109 1
 83/home/juan-blanco/projects/PEC1/node_modules/es-abstract/2015/GetOwnPropertyKeys.js1647688939385999000 0
 77/home/juan-blanco/projects/PEC1/node_modules/es-abstract/2021/Number/index.js1647688939385999000 0
 76/home/juan-blanco/projects/PEC1/node_modules/caniuse-lite/data/regions/CV.js1647688946607000000 0
@@ -4079,7 +4079,7 @@
 83/home/juan-blanco/projects/PEC1/node_modules/@parcel/packager-js/lib/DevPackager.js1647688942319999000 0
 87/home/juan-blanco/projects/PEC1/node_modules/es-abstract/2018/FromPropertyDescriptor.js1647688939385999000 0
 70/home/juan-blanco/projects/PEC1/node_modules/csso/lib/clean/Comment.js1647688948368999000 0
-58/home/juan-blanco/projects/PEC1/dist/index.f34897c6.js.map1648233208729512692 0
+58/home/juan-blanco/projects/PEC1/dist/index.f34897c6.js.map1648233612029508109 0
 84/home/juan-blanco/projects/PEC1/node_modules/postcss-minify-font-values/src/index.js1647688950006000000 0
 99/home/juan-blanco/projects/PEC1/node_modules/postcss-discard-comments/types/lib/commentRemover.d.ts1647688949710999000 0
 75/home/juan-blanco/projects/PEC1/node_modules/@babel/code-frame/package.json1647688949371000000 0
@@ -5686,7 +5686,7 @@
 74/home/juan-blanco/projects/PEC1/node_modules/es-abstract/2015/IsPromise.js1647688939385999000 0
 66/home/juan-blanco/projects/PEC1/node_modules/entities/lib/index.js1647688948986999000 0
 85/home/juan-blanco/projects/PEC1/node_modules/string.prototype.trimstart/.editorconfig1647688939747999000 0
-55/home/juan-blanco/projects/PEC1/dist/index.688abdd0.css1648233208719512692 0
+55/home/juan-blanco/projects/PEC1/dist/index.688abdd0.css1648233612029508109 0
 78/home/juan-blanco/projects/PEC1/node_modules/es-abstract/2018/DayWithinYear.js1647688939385999000 0
 69/home/juan-blanco/projects/PEC1/node_modules/es-abstract/2018/Type.js1647688939385999000 0
 84/home/juan-blanco/projects/PEC1/node_modules/es-abstract/2018/OrdinaryHasInstance.js1647688939385999000 0
@@ -6630,7 +6630,7 @@
 69/home/juan-blanco/projects/PEC1/node_modules/colord/plugins/names.mjs1647688950857000000 0
 67/home/juan-blanco/projects/PEC1/node_modules/colord/plugins/xyz.mjs1647688950857000000 0
 68/home/juan-blanco/projects/PEC1/node_modules/colord/plugins/names.js1647688950857000000 0
-54/home/juan-blanco/projects/PEC1/dist/index.f34897c6.js1648233208719512692 0
+54/home/juan-blanco/projects/PEC1/dist/index.f34897c6.js1648233612029508109 0
 65/home/juan-blanco/projects/PEC1/node_modules/htmlnano/lib/modules1647688955510820016 1
 76/home/juan-blanco/projects/PEC1/node_modules/css-tree/lib/generator/index.js1647688948296000000 0
 68/home/juan-blanco/projects/PEC1/node_modules/colord/plugins/lab.d.ts1647688950857000000 0
