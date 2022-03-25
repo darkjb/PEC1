@@ -1,7 +1,7 @@
 {
   "name": "pec1",
   "source": "src/index.html",
-  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "browserslist": "cover 95%, last 2 versions, not dead",
   "version": "1.0.0",
   "scripts": {
     "start": "npm-run-all clean parcel:dev",

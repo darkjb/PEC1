@@ -1,1 +1,0 @@
-{"mappings":"AAEAA,QAAQC,IAAK,SAAeC,OAFb","sources":["src/app.js"],"sourcesContent":["const nombre = 'piesito';\n\nconsole.log(`Hello ${nombre}`);"],"names":["console","log","concat"],"version":3,"file":"index.f22b0cdc.js.map"}
