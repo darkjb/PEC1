@@ -9,8 +9,8 @@ article {
     margin-right: 10vw;
 }
 
-li {
-    margin: 5px;
+article li {
+    margin: 25px 40px 25px 5px;
     text-align: justify;
 }
 
