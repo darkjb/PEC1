@@ -38,3 +38,13 @@ figcaption{
         width: 80vw;
     }
 }
+
+.indice ul {
+    display: inherit;
+    border-radius: 15px;
+}
+
+.indice ul li {
+    margin: 5px;
+    margin-left: 5vw
+}
