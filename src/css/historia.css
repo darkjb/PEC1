@@ -1,0 +1,58 @@
+@import '../styles.css';
+
+blockquote p {
+    font-size: 1.5em;
+}
+
+h3 {
+    margin-left: 5vw;
+}
+
+h4 {
+    margin-left: 7.5vw;
+}
+
+.indice ul {
+    display: inherit;
+    border-radius: 15px;
+}
+
+.indice ul li {
+    margin: 5px;
+    margin-left: 5vw
+}
+
+.derecha {
+    float: right;
+    width: 30vw;
+    max-width: 250px;
+    border: 5px;
+    border-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    display: block;
+    margin-right: 10vw;
+}
+
+.derecha img, .centrado img {
+    width: 100%;
+}
+
+.derecha footer {
+    font-size: 0.85em;
+}
+
+ul h3 {
+    margin-top: 5px;
+}
+
+.centrado {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    max-width: 500px;
+    border: 5px;
+    border-color: aliceblue;
+    border-radius: 15px;
+}

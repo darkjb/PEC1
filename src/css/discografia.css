@@ -1,0 +1,40 @@
+@import '../styles.css';
+
+.disco {
+    margin: 5%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: darkmagenta;
+    box-shadow: 1px 2px 10px rgb(67 58 68);
+}
+
+.discos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.disco img{
+    width: 100%;
+}
+
+figcaption{
+    text-align: center;
+    background-color: darkmagenta;
+    padding: 10px 0;
+    color: rgb(238, 240, 225);
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .discos {
+        grid-template-columns: 1fr;
+    }
+
+    .disco img, figcaption {
+        width: 80vw;
+    }
+}

@@ -15,9 +15,15 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
+    "@parcel/transformer-jsonld": "^2.3.2",
     "autoprefixer": "^10.4.4",
+    "carousel-js": "^4.0.0",
     "npm-run-all": "^4.1.5",
     "parcel": "latest",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "carousel": "^0.0.3",
+    "date-format": "^4.0.6"
   }
 }
