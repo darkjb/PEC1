@@ -1,0 +1,1 @@
+{"mappings":"AAEA,YACI,oBAAqB,CACrB,iBACJ","sources":["src/css/categorias.css"],"sourcesContent":["@import '../styles.css';\n\n#categorias {\n    list-style-type: none;\n    text-align: center;\n}"],"names":[],"version":3,"file":"categorias.86b4b273.css.map"}
