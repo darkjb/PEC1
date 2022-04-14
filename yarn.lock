@@ -1415,11 +1415,6 @@
   dependencies:
     "css-tree" "^1.1.2"
 
-"date-format@^4.0.6":
-  "integrity" "sha512-B9vvg5rHuQ8cbUXE/RMWMyX2YA5TecT3jKF5fLtGNlzPlU7zblSPmAm2OImDbWL+LDOQ6pUm+4LOFz+ywS41Zw=="
-  "resolved" "https://registry.npmjs.org/date-format/-/date-format-4.0.6.tgz"
-  "version" "4.0.6"
-
 "debug@^2.6.8", "debug@^2.6.9":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
