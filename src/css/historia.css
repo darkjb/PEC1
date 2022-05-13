@@ -45,14 +45,3 @@ h4 {
 ul h3 {
     margin-top: 5px;
 }
-
-.centrado {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50vw;
-    max-width: 500px;
-    border: 5px;
-    border-color: aliceblue;
-    border-radius: 15px;
-}

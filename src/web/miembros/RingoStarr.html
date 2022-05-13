@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portal Biográfico - Miembros de la Banda</title>
     <link rel="stylesheet" href="../../css/miembros.css" />
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -10,6 +11,11 @@
 </head>
 
 <body>
+    <div class="logo-container">
+        <picture class="logo">
+            <img src="./../../assets/Logo.svg" alt="Logo">
+        </picture>
+    </div>
     <h1>THE BEATLES</h1>
     <h2>Portal Biográfico</h2>
     <nav>
@@ -74,9 +80,14 @@
             <h3>Fotografía</h3>
             <a title="Eva Rinaldi
 , CC BY-SA 2.0 &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons"
-                href="https://commons.wikimedia.org/wiki/File:Ringo_Starr_and_all_his_band_(8469748653).jpg"><img
-                    width="256" alt="Ringo Starr and all his band (8469748653)"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ringo_Starr_and_all_his_band_%288469748653%29.jpg/256px-Ringo_Starr_and_all_his_band_%288469748653%29.jpg"></a>
+                href="https://commons.wikimedia.org/wiki/File:Ringo_Starr_and_all_his_band_(8469748653).jpg">
+                <picture>
+                    <source media="(min-width: 500px)" srcset="../../assets/Ringo_Starr_w400.jpg">
+                    <source media="(min-width: 10px)" srcset="../../assets/Ringo_Starr_w200.jpg">
+                    <img src="../../assets/Ringo_Starr_w400.jpg"
+                        srcset="../../assets/Ringo_Starr_w400.jpg" alt="Ringo Starr">
+                </picture>
+            </a>
             <footer>Ringo Starr</footer>
         </div>
     </section>
@@ -89,6 +100,9 @@
         </ul>
     </nav>
     <footer id="pie">
+        <picture>
+            <img src="./../../assets/Logo_footer.svg" alt="Logo">
+        </picture>
         <ul>
             <li>
                 © 2021 Juan Blanco Benítez
@@ -98,6 +112,14 @@
                     href="../enlaces.html">ENLACES</a>
             </li>
         </ul>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">INICIO</a></li>
+                <li><a href="../categorias.html">CATEGORÍAS</a></li>
+                <li><a href="../presentacion.html">PRESENTACIÓN</a></li>
+                <li><a href="../enlaces.html">ENLACES</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 

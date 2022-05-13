@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portal Biográfico - Miembros de la Banda</title>
     <link rel="stylesheet" href="../../css/miembros.css" />
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -10,6 +11,11 @@
 </head>
 
 <body>
+    <div class="logo-container">
+        <picture class="logo">
+            <img src="./../../assets/Logo.svg" alt="Logo">
+        </picture>
+    </div>
     <h1>THE BEATLES</h1>
     <h2>Portal Biográfico</h2>
     <nav>
@@ -111,9 +117,14 @@
         <div class="centrado">
             <h3>Fotografía</h3>
             <a title="Raphael Pour-Hashemi, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons"
-                href="https://commons.wikimedia.org/wiki/File:Paul_McCartney_2021_(cropped).jpg"><img width="256"
-                    alt="Paul McCartney 2021 (cropped)"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Paul_McCartney_2021_%28cropped%29.jpg/256px-Paul_McCartney_2021_%28cropped%29.jpg"></a>
+                href="https://commons.wikimedia.org/wiki/File:Paul_McCartney_2021_(cropped).jpg">
+                <picture>
+                    <source media="(min-width: 500px)" srcset="../../assets/Paul_McCartney_w400.jpg">
+                    <source media="(min-width: 10px)" srcset="../../assets/Paul_McCartney_w200.jpg">
+                    <img src="../../assets/Paul_McCartney_w400.jpg" srcset="../../assets/Paul_McCartney_w400.jpg"
+                        alt="Paul McCartney">
+                </picture>
+            </a>
             <footer>McCartney en noviembre de 2021</footer>
         </div>
     </section>
@@ -126,6 +137,9 @@
         </ul>
     </nav>
     <footer id="pie">
+        <picture>
+            <img src="./../../assets/Logo_footer.svg" alt="Logo">
+        </picture>
         <ul>
             <li>
                 © 2021 Juan Blanco Benítez
@@ -135,6 +149,14 @@
                     href="../enlaces.html">ENLACES</a>
             </li>
         </ul>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">INICIO</a></li>
+                <li><a href="../categorias.html">CATEGORÍAS</a></li>
+                <li><a href="../presentacion.html">PRESENTACIÓN</a></li>
+                <li><a href="../enlaces.html">ENLACES</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 

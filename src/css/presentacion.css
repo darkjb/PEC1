@@ -33,3 +33,11 @@ article p {
     margin-right: auto;
     margin-top: 5px;
 }
+
+#baqueta-esquerra-pal, #baqueta-esquerra-bola {
+    animation: tupaTupa 500ms ease-out 500ms infinite alternate;
+}
+
+#baqueta-dreta-pal, #baqueta-dreta-bola {
+    animation: tupaTupa 500ms ease-out 750ms infinite alternate;
+}

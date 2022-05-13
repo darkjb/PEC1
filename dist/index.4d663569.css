@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'Beatles';
+  src: url("Beatles_Font_FONTSMAGAZINE.ca34da2f.TTF") format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@-webkit-keyframes tupaTupa {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  to {
+    -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+  }
+}
+
+@keyframes tupaTupa {
+  from {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  to {
+    -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+  }
+}
+
+@-webkit-keyframes light {
+  0% {
+    text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black,
+    0 0 3px black, 0 0 10px black, 0 0 20px black,
+    0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 70px yellow, 0 0 100px yellow, 0 0 200px yellow;
+  }
+  50% {
+    text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black,
+    0 0 5px black, 0 0 15px black, 0 0 25px black,
+    0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 80px yellow, 0 0 110px yellow, 0 0 210px yellow;
+  }
+  100% {
+    text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black,
+    0 0 3px black, 0 0 10px black, 0 0 20px black,
+    0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 70px yellow, 0 0 100px yellow, 0 0 200px yellow;
+  }
+}
+
+@keyframes light {
+  0% {
+    text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black,
+    0 0 3px black, 0 0 10px black, 0 0 20px black,
+    0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 70px yellow, 0 0 100px yellow, 0 0 200px yellow;
+  }
+  50% {
+    text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black,
+    0 0 5px black, 0 0 15px black, 0 0 25px black,
+    0 0 40px yellow, 0 0 50px yellow, 0 0 60px yellow, 0 0 80px yellow, 0 0 110px yellow, 0 0 210px yellow;
+  }
+  100% {
+    text-shadow: -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black,
+    0 0 3px black, 0 0 10px black, 0 0 20px black,
+    0 0 30px yellow, 0 0 40px yellow, 0 0 50px yellow, 0 0 70px yellow, 0 0 100px yellow, 0 0 200px yellow;
+  }
+}
+
+h1 {
+  color: black;
+  font-family: 'Beatles';
+  font-size: 5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: darkslateblue;
+  text-align: center;
+  font-size: 2em;
+}
+
+h3 {
+  color: darkmagenta;
+  font-size: 2em;
+}
+
+h4 {
+  color: blueviolet;
+  font-size: 1.5em;
+}
+
+body {
+  font-family: 'Tahoma';
+  height: 100vh;
+  color: #1f1f1f;
+  background-image: url("fondo_inicio_mod75.4402b173.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x:center;
+  background-position-y:center;
+  background-attachment: fixed;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.1em;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 30px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(48, 44, 51);
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(238, 240, 225);
+}
+
+blockquote p {
+  color: black;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-style: italic;
+  background: none;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+body footer {
+  text-align: center;
+  background-color: rgb(48, 44, 51);
+  padding: 10px;
+  color: rgb(238, 240, 225);
+}
+
+#pie {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#pie nav ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+blockquote footer {
+  text-align: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  background-color: inherit;
+  color: #1f1f1f;
+}
+
+.actual {
+  font-weight: bolder;
+}
+
+.ir-arriba {
+	display:none;
+	padding:5px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+  width: 50px;
+}
+
+.ir-arriba img {
+  width: 100%;
+}
+
+li {
+  margin: 5px;
+}
+
+.svg-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.clip-container {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.clip {
+  -webkit-clip-path: polygon(50% 20%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(50% 20%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.logo {
+  position: absolute;
+  top:  50px;
+  left: 5vw;
+}
+
+.animated-text:hover{
+  color: white;
+  -webkit-animation: light 1s infinite;
+          animation: light 1s infinite;
+}
+
+.centrado {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  max-width: 500px;
+  border: 5px;
+  border-color: aliceblue;
+  border-radius: 15px;
+}
+
+.centrado img {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+  }
+  blockquote p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    position: inherit;
+  }
+  .logo-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #pie {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=index.4d663569.css.map */

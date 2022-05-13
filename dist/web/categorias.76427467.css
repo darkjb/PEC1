@@ -1,0 +1,21 @@
+#categorias {
+    list-style-type: none;
+    text-align: center;
+}
+
+.flex {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+@media (max-width: 600px) {
+    .categ {
+        font-size: 1em;
+    }
+}
+
+/*# sourceMappingURL=categorias.76427467.css.map */

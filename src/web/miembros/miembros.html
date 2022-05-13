@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portal Biográfico - Miembros de la Banda</title>
     <link rel="stylesheet" href="../../css/miembros.css" />
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -12,6 +13,11 @@
 </head>
 
 <body>
+    <div class="logo-container">
+        <picture class="logo">
+            <img src="./../../assets/Logo.svg" alt="Logo">
+        </picture>
+    </div>
     <h1>THE BEATLES</h1>
     <h2>Portal Biográfico</h2>
     <nav>
@@ -24,6 +30,12 @@
     </nav>
     <span class="ir-arriba"><img src="../../assets/el-rock-and-roll.png" /></span>
     <h2>MIEMBROS DEL GRUPO</h2>
+    <picture class="centrado">
+        <source media="(min-width: 500px)" srcset="/src/assets/miembros_destacada_w500.jpg">
+        <source media="(min-width: 10px)" srcset="/src/assets/miembros_destacada_w250.jpg">
+        <img src="/src/assets/miembros_destacada_w500.jpg" srcset="/src/assets/miembros_destacada_w500.jpg"
+            alt="Banda de osos músicos">
+    </picture>
     <nav class="indice">
         <ul>
             <h3>Contenido</h3>
@@ -36,19 +48,44 @@
     <section>
         <div class="carousel">
             <div class="carousel-panel">
-                <img src="../../assets/augsburg-gfb396d932_640.jpg" />
+                <picture>
+                    <source media="(min-width: 700px)" srcset="../../assets/carroussel1_h500.webp">
+                    <source media="(min-width: 250px)" srcset="../../assets/carroussel1_h250.webp">
+                    <img src="../../assets/carroussel1_h500.webp" srcset="../../assets/carroussel1_h500.webp"
+                        alt="Figuras de The Beatles">
+                </picture>
             </div>
             <div class="carousel-panel">
-                <img src="../../assets/john-lennon-gdb7b06916_640.jpg" />
+                <picture>
+                    <source media="(min-width: 700px)" srcset="../../assets/carroussel2_h500.webp">
+                    <source media="(min-width: 250px)" srcset="../../assets/carroussel2_h250.webp">
+                    <img src="../../assets/carroussel2_h500.webp" srcset="../../assets/carroussel2_h500.webp"
+                        alt="Estatuas de The Beatles">
+                </picture>
             </div>
             <div class="carousel-panel">
-                <img src="../../assets/beatles-g92650d8d1_640.png" />
+                <picture>
+                    <source media="(min-width: 700px)" srcset="../../assets/carroussel3_h500.webp">
+                    <source media="(min-width: 250px)" srcset="../../assets/carroussel3_h250.webp">
+                    <img src="../../assets/carroussel3_h500.webp" srcset="../../assets/carroussel3_h500.webp"
+                        alt="Dibujo de The Beatles">
+                </picture>
             </div>
             <div class="carousel-panel">
-                <img src="../../assets/john-lennon-g158b6fb35_640.jpg" />
+                <picture>
+                    <source media="(min-width: 700px)" srcset="../../assets/carroussel4_h500.webp">
+                    <source media="(min-width: 250px)" srcset="../../assets/carroussel4_h250.webp">
+                    <img src="../../assets/carroussel4_h500.webp" srcset="../../assets/carroussel4_h500.webp"
+                        alt="Dibujo de John Lennon">
+                </picture>
             </div>
             <div class="carousel-panel">
-                <img src="../../assets/The_Fabs.jpg" />
+                <picture>
+                    <source media="(min-width: 700px)" srcset="../../assets/carroussel5_h500.webp">
+                    <source media="(min-width: 250px)" srcset="../../assets/carroussel5_h250.webp">
+                    <img src="../../assets/carroussel5_h500.webp" srcset="../../assets/carroussel5_h500.webp"
+                        alt="Fotos de los miembros de The Beatles">
+                </picture>
             </div>
         </div>
         <div class="carousel-buttons">
@@ -65,6 +102,9 @@
         </ul>
     </nav>
     <footer id="pie">
+        <picture>
+            <img src="./../../assets/Logo_footer.svg" alt="Logo">
+        </picture>
         <ul>
             <li>
                 © 2021 Juan Blanco Benítez
@@ -74,6 +114,14 @@
                     href="../enlaces.html">ENLACES</a>
             </li>
         </ul>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">INICIO</a></li>
+                <li><a href="../categorias.html">CATEGORÍAS</a></li>
+                <li><a href="../presentacion.html">PRESENTACIÓN</a></li>
+                <li><a href="../enlaces.html">ENLACES</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 

@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portal Biográfico - Categorías</title>
   <link rel="stylesheet" href="../css/categorias.css" />
   <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -10,6 +11,11 @@
 </head>
 
 <body>
+  <div class="logo-container">
+    <picture class="logo">
+      <img src="./../assets/Logo.svg" alt="Logo">
+    </picture>
+  </div>
   <h1>THE BEATLES</h1>
   <h2>Portal Biográfico</h2>
   <nav>
@@ -24,23 +30,44 @@
   <section>
     <ul id="categorias">
       <li>
-        <a href="historia/historia.html">
-          <h3>Historia</h3>
+        <a href="historia/historia.html" class="flex">
+          <h3 class="categ">Historia</h3>
+          <picture>
+            <source media="(min-width: 600px)" srcset="/src/assets/historia_detalle_w250.jpg">
+            <source media="(min-width: 10px)" srcset="/src/assets/historia_detalle_w100.jpg">
+            <img src="/src/assets/historia_detalle_w250.jpg" srcset="/src/assets/historia_detalle_w250.jpg"
+              alt="Libro con partituras">
+          </picture>
         </a>
       </li>
       <li>
-        <a href="miembros/miembros.html">
-          <h3>Miembros del grupo</h3>
+        <a href="miembros/miembros.html" class="flex">
+          <h3 class="categ">Miembros del grupo</h3>
+          <picture>
+            <source media="(min-width: 600px)" srcset="/src/assets/miembros_detalle_w250.jpg">
+            <source media="(min-width: 10px)" srcset="/src/assets/miembros_detalle_w100.jpg">
+            <img src="/src/assets/miembros_detalle_w250.jpg" srcset="/src/assets/miembros_detalle_w250.jpg"
+              alt="Banda de osos músicos">
+          </picture>
         </a>
       </li>
       <li>
-        <a href="discografia/discografia.html">
-          <h3>Discografía</h3>
+        <a href="discografia/discografia.html" class="flex">
+          <h3 class="categ">Discografía</h3>
+          <picture>
+            <source media="(min-width: 600px)" srcset="/src/assets/discografia_detalle_w250.jpg">
+            <source media="(min-width: 10px)" srcset="/src/assets/discografia_detalle_w100.jpg">
+            <img src="/src/assets/discografia_detalle_w250.jpg" srcset="/src/assets/discografia_detalle_w250.jpg"
+              alt="Gramófono">
+          </picture>
         </a>
       </li>
     </ul>
   </section>
   <footer id="pie">
+    <picture>
+      <img src="./../assets/Logo_footer.svg" alt="Logo">
+    </picture>
     <ul>
       <li>
         © 2021 Juan Blanco Benítez
@@ -50,6 +77,14 @@
           href="enlaces.html">ENLACES</a>
       </li>
     </ul>
+    <nav>
+      <ul>
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a class="actual" href="categorias.html">CATEGORÍAS</a></li>
+        <li><a href="presentacion.html">PRESENTACIÓN</a></li>
+        <li><a href="enlaces.html">ENLACES</a></li>
+      </ul>
+    </nav>
   </footer>
 </body>
 
