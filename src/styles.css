@@ -51,6 +51,10 @@ h3 {
   font-size: 2em;
 }
 
+.light-h3 {
+  color: #D26AD2;
+}
+
 h4 {
   color: blueviolet;
   font-size: 1.5em;
