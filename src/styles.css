@@ -5,7 +5,12 @@
   font-weight: normal;
 }
 
-@keyframes tupaTupa {
+@keyframes                                     tupaTupa {
+
+
+
+
+  
   from {
     transform: translateY(0%);
   }
