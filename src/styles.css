@@ -1,16 +1,12 @@
 @font-face {
   font-family: 'Beatles';
-  src: url('./assets/Beatles_Font_FONTSMAGAZINE.TTF') format('truetype');
+  src: local('serif'), url('./assets/Beatles_Font_FONTSMAGAZINE.TTF') format('truetype');
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
 }
 
-@keyframes                                     tupaTupa {
-
-
-
-
-  
+@keyframes tupaTupa {
   from {
     transform: translateY(0%);
   }
@@ -168,6 +164,7 @@ blockquote footer {
 
 .ir-arriba img {
   width: 100%;
+  background:#024959;
 }
 
 li {

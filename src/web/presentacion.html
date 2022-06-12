@@ -13,7 +13,7 @@
 <body>
     <div class="logo-container">
         <picture class="logo">
-            <img src="./../assets/Logo.svg" alt="Logo">
+            <img src="./../assets/Logo.svg" alt="Logo" width="130" height="139">
         </picture>
     </div>
     <h1>THE BEATLES</h1>
@@ -26,7 +26,7 @@
             <li><a href="enlaces.html">ENLACES</a></li>
         </ul>
     </nav>
-    <span class="ir-arriba"><img src="../assets/el-rock-and-roll.png" alt="Go top"/></span>
+    <span class="ir-arriba"><img src="../assets/el-rock-and-roll.png" alt="Go top" width="50" height="50"/></span>
     <h3 class="centrado">PRESENTACIÓN</h3>
     <section>
         <p>
@@ -46,7 +46,7 @@
                 </li>
                 <li>
                     <h4 class="titulo">Categorías</h4>
-                    <p>Listado de categorías, en las que se incluyen: Historia, Miembros de la banda y Discografía.</p>
+                    <p>Listado de categorías, en las que se incluyen: Historia, Miembros del grupo y Discografía.</p>
                 </li>
                 <li>
                     <h4 class="titulo">Presentación</h4>
@@ -79,7 +79,15 @@
         </div>
 
         <div class="video-container">
-            <iframe loading="lazy" class="video" width="620" height="380" src="https://www.youtube.com/embed/KQetemT1sWc">
+            <iframe class="video" width="620" height="380" src="https://www.youtube.com/embed/KQetemT1sWc"
+            srcdoc="<style>
+                *{padding:0;margin:0;overflow:hidden}
+                html,body{height:100%}
+                img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+                span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}
+                </style>
+                <a href=https://www.youtube.com/embed/KQetemT1sWc?autoplay=1>
+                <img src=https://img.youtube.com/vi/KQetemT1sWc/hqdefault.jpg alt='Video The Beatles - Here Comes The Sun'></a>">
             </iframe>
             <footer><strong lang="en">The Beatles - Here Comes The Sun (<time>2019</time> Mix)</strong> |
                 <em>YouTube</em>
@@ -93,7 +101,7 @@
     </section>
     <footer id="pie">
         <picture>
-            <img loading="lazy" src="./../assets/Logo_footer.svg" alt="Logo">
+            <img loading="lazy" src="./../assets/Logo_footer.svg" alt="Logo" width="130" height="139">
         </picture>
         <ul>
             <li>
